@@ -1,0 +1,499 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+/* width  */
+
+
+.w-10{
+    width: 10%;
+}
+.w-20{
+    width: 20%;
+}
+.w-30{
+    width: 30%;
+}
+.w-33{
+    width: 33.3%;
+}
+.w-40{
+    width: 40%;
+}
+.w-50{
+    width: 50%;
+}
+.w-60{
+    width: 60%;
+}
+.w-70{
+    width: 70%;
+}
+.w-80{
+    width: 80%;
+}
+.w-90{
+    width: 90%;
+}
+.w-100{
+    width: 100%;
+}
+
+
+.container{
+    width: 1368px;
+    margin: auto;
+}
+
+/* font */
+
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+@font-face {
+    font-family: 'RiaSans-ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/RiaSans-ExtraBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.main h1{
+    color: #4444CD;
+    line-height: 140%;
+    font-size: 70px;
+}
+
+h2{
+    color: #4444CD;
+    font-size: 56px;
+    line-height: 140%;
+}
+
+h3{
+    font-family: 'RiaSans-ExtraBold';
+    color: #4444CD;
+    font-size: 40px;
+    line-height: 140%;
+    margin: 0;
+}
+
+.main .bold{
+    font-size: 80px;
+}
+.sub_tilte{
+    font-size: 24px;
+    color: #888888;
+    line-height: 140%;
+    font-weight: 600;
+}
+
+.menu_text{
+    font-size: 18px;
+    font-weight: 600;
+    color: #2B2B2B;
+}
+
+.text-c{
+    text-align: center;
+}
+
+/* layout */
+
+.d-flex{
+    display: flex;
+}
+
+/* padding */
+
+.common-padding{
+    padding: 100px 0;
+}
+
+.ptb-1{
+    padding: 10px 0px;
+}
+
+.ptb-2{
+    padding: 20px 0px;
+}
+
+.ptb-3{
+    padding: 30px 0px;
+}
+
+.ptb-4{
+    padding: 40px 0px;
+}
+
+.ptb-5{
+    padding: 50px 0px;
+}
+
+.ptb-6{
+    padding: 60px 0px;
+}
+
+.tb-7{
+    padding: 70px 0px;
+}
+
+.ptb-8{
+    padding: 80px 0px;
+}
+
+.ptb-9{
+    padding: 90px 0px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.p-2{
+    padding: 20px;
+}
+
+.p-3{
+    padding: 30px;
+}
+
+.p-4{
+    padding: 40px;
+}
+
+.p-5{
+    padding: 50px;
+}
+
+/* margin */
+
+.m-auto{
+    margin: auto;
+}
+
+/* margin-top */
+.mt-10{
+    margin-top: 100px;
+}
+
+.mt-9{
+    margin-top: 90px;
+}
+
+.mt-8{
+    margin-top: 80px;
+}
+
+.mt-7{
+    margin-top: 70px;
+}
+
+.mt-6{
+    margin-top: 60px;
+}
+
+.mt-5{
+    margin-top: 50px;
+}
+
+.mt-4{
+    margin-top: 40px;
+}
+
+.mt-3{
+    margin-top: 30px;
+}
+
+.mt-2{
+    margin-top: 20px;
+}
+
+.mt-1_5{
+ margin-top: 15px;
+}
+
+.mt-1{
+    margin-top: 10px;
+}
+
+/* margin-bottom */
+.mb-10{
+    margin-bottom: 100px;
+}
+
+.mb-9{
+    margin-bottom: 90px;
+}
+
+.mb-8{
+    margin-bottom: 80px;
+}
+
+.mb-7{
+    margin-bottom: 70px;
+}
+
+.mb-6{
+    margin-bottom: 60px;
+}
+
+.mb-5{
+    margin-bottom: 50px;
+}
+
+.mb-4{
+    margin-bottom: 40px;
+}
+
+.mb-3{
+    margin-bottom: 30px;
+}
+
+.mb-2{
+    margin-bottom: 20px;
+}
+
+.mb-1{
+    margin-bottom: 10px;
+}
+
+/* margin-right */
+.mr-1{
+    margin-right: 10px;
+}
+
+/* 1380 */
+
+@media(max-width: 1380px){
+    .container{
+        width: 80%;
+    }
+    .ptb-8{
+        padding: 60px 0;
+    }
+    .main h1 {
+        font-size: 60px;
+    }
+    .main .bold {
+        font-size: 70px;
+    }
+    h2{
+        font-size: 48px;
+    }
+    .sub_tilte{
+        font-size: 20px;
+    }
+}
+
+/* 1280 */
+
+@media(max-width: 1280px){
+    .container{
+        width: 80%;
+    }
+    .ptb-8{
+        padding: 60px 0;
+    }
+    .main h1 {
+        font-size: 50px;
+    }
+    .main .bold {
+        font-size: 60px;
+    }
+    h2{
+        font-size: 48px;
+    }
+    .sub_tilte{
+        font-size: 20px;
+    }
+}
+
+/* 1024 */
+
+@media(max-width: 1024px){
+    .container{
+        width: 80%;
+    }
+    .ptb-8{
+        padding: 30px 0;
+    }
+    .main h1 {
+        font-size: 40px;
+    }
+    .main .bold {
+        font-size: 50px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 36PX;
+    }
+    .menu_text{
+        font-size: 16px;
+    }
+    .menu .d-flex{
+        gap: 40px;
+    }
+    .sub_tilte{
+        font-size: 16px;
+    }
+}
+
+/* 884 */
+
+@media(max-width: 884px){
+    .container{
+        width: 80%;
+    }
+    .ptb-8{
+        padding: 30px 0;
+    }
+    .main h1 {
+        font-size: 40px;
+    }
+    .main .bold {
+        font-size: 50px;
+    }
+    h2{
+        font-size: 36px;
+    }
+    h3{
+        font-size: 30PX;
+    }
+    .menu_text{
+        font-size: 16px;
+    }
+    .menu .d-flex{
+        gap: 30px;
+    }
+    .sub_tilte{
+        font-size: 16px;
+    }
+}
+
+/* 768 */
+
+@media(max-width:768px){
+    .container{
+        width: 80%;
+    }
+
+}
+
+/* 586*/
+
+@media(max-width: 586px){
+    .container{
+        width: 88%;
+    }
+    .ptb-8{
+        padding: 25px 0;
+    }
+    .main h1 {
+        font-size: 30px;
+    }
+    .main .bold {
+        font-size: 40px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 30PX;
+    }
+    .sub_tilte{
+        font-size: 14px;
+    }
+    .w-50{
+        width: 100%;
+    }
+}
+
+/* 540 */
+
+@media(max-width: 540px){
+    .main h1 {
+        font-size: 25px;
+    }
+    .main .bold {
+        font-size: 30px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 24PX;
+    }
+    .sub_tilte{
+        font-size: 14px;
+    }
+    .w-50{
+        width: 100%;
+    }
+}
+
+/* 440*/
+
+@media(max-width: 440px){
+    .container{
+        width: 80%;
+    }
+} 
+
+/* 428~430 */
+@media(min-width: 428px) and (max-width: 430px){
+
+}
+
+/* 412~414 */
+
+@media(min-width: 412px) and (max-width: 414px){
+    .main h1 {
+        font-size: 24px;
+    }
+    .main .bold {
+        font-size: 28px;
+    }
+}
+
+
+/* 390~402 */
+
+@media(min-width: 390px) and (max-width: 402px){
+    .container{
+        width: 80%;
+    }
+    h3{
+        font-size: 18PX;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .sub_tilte{
+        font-size: 12px;
+    }
+}
+
+/* 360 */
+
+@media(max-width: 360px){
+
+} 
+
+/* 348 */
+
+@media(max-width: 348px){
+    .sub_tilte{
+        font-size: 12px;
+    }
+}
